@@ -13,9 +13,10 @@ import java.util.List;
 public class User {
     @Id
     private Long id;
-    @OneToOne(fetch = FetchType.LAZY , cascade = CascadeType.ALL)
+    @Embedded
     private SecurityData securityData;
 
+    private String nick;
     private String lastName;
     private String firstName;
     private Long age;

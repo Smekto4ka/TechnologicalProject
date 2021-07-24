@@ -1,0 +1,10 @@
+ru\oogis\advice\ControllerValidateExceptionHandler.class
+ru\oogis\controller\CommunicationController.class
+ru\oogis\advice\Violation.class
+ru\oogis\controller\UserController.class
+ru\oogis\Application.class
+ru\oogis\sse\ClientRegistryAbstr.class
+ru\oogis\sse\ListenetEvent.class
+ru\oogis\advice\ValidationErrorResponse.class
+ru\oogis\sse\EventType.class
+ru\oogis\sse\SseClient.class

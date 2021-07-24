@@ -1,0 +1,4 @@
+ru\oogis\mapper\EventMapperImpl.class
+ru\oogis\event\DataEventListener.class
+ru\oogis\event\MyEvent.class
+ru\oogis\mapper\EventMapper.class
