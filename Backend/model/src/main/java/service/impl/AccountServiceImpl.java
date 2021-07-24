@@ -8,11 +8,11 @@ import mapping.UserMapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import repository.UserRepository;
-import service.AccountService;
+import service.AccService;
 
 @Service
 @Transactional
-public class AccountServiceImpl implements AccountService {
+public class AccountServiceImpl implements AccService {
 
     private final UserMapper userMapper;
     private final UserRepository userRepository;

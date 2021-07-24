@@ -1,6 +1,7 @@
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\service\CommunicationService.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\data\dto\MessageDto.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\entity\Message.java
+C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\mapping\SecurityMapper.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\data\dto\UserDto.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\entity\User.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\service\impl\MessageServiceImpl.java
@@ -14,11 +15,15 @@ C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\repository\User
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\entity\SecurityData.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\mapping\CommunicationMapper.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\data\GroupType.java
+C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\service\impl\AccountServiceImpl.java
+C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\service\AccService.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\data\dto\CommunicationGroupDto.java
+C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\data\dto\SecurityDto.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\service\impl\UserServiceImpl.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\data\dto\CommunicationGroupInfo.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\repository\CommunicationRepository.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\event\EventEntity.java
+C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\service\AccountService.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\data\MessageType.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\service\impl\CommunicationServiceImpl.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\service\MessageService.java

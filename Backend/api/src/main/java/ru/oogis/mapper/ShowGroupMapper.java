@@ -6,7 +6,7 @@ import org.mapstruct.Mapper;
 import ru.oogis.transfer.ShowGroup;
 import ru.oogis.transfer.ShowGroupInfo;
 
-@Mapper(componentModel = "spring" )
+@Mapper(componentModel = "spring", uses = {ShowMessageMapper.class , ShowUserInfoMapper.class})
 public interface ShowGroupMapper {
     ShowGroupInfo communicationGroupInfoToShowGroupInfo(CommunicationGroupInfo communicationGroupInfo);
     CommunicationGroupInfo showGroupInfoToCommunicationGroupInfo(ShowGroupInfo showGroupInfo);

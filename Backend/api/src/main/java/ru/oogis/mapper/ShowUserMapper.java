@@ -5,7 +5,7 @@ import org.mapstruct.Mapper;
 import ru.oogis.transfer.ShowUser;
 import ru.oogis.transfer.ShowUserInfo;
 
-@Mapper(componentModel = "spring")
+@Mapper(componentModel = "spring" , uses = {ShowGroupMapper.class})
 public interface ShowUserMapper  extends ShowUserInfoMapper{
     ShowUser userDtoToShowUser(UserDto userDto);
 

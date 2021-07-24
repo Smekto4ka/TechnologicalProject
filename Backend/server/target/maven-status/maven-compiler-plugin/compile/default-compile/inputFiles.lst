@@ -1,6 +1,7 @@
 C:\Games\GitHub\TechnologicalProject\Backend\server\src\main\java\ru\oogis\advice\ValidationErrorResponse.java
 C:\Games\GitHub\TechnologicalProject\Backend\server\src\main\java\ru\oogis\sse\SseClient.java
 C:\Games\GitHub\TechnologicalProject\Backend\server\src\main\java\ru\oogis\advice\ControllerValidateExceptionHandler.java
+C:\Games\GitHub\TechnologicalProject\Backend\server\src\main\java\ru\oogis\congig\SwaggerConfig.java
 C:\Games\GitHub\TechnologicalProject\Backend\server\src\main\java\ru\oogis\controller\CommunicationController.java
 C:\Games\GitHub\TechnologicalProject\Backend\server\src\main\java\ru\oogis\sse\ListenetEvent.java
 C:\Games\GitHub\TechnologicalProject\Backend\server\src\main\java\ru\oogis\controller\UserController.java
@@ -8,3 +9,4 @@ C:\Games\GitHub\TechnologicalProject\Backend\server\src\main\java\ru\oogis\sse\C
 C:\Games\GitHub\TechnologicalProject\Backend\server\src\main\java\ru\oogis\sse\EventType.java
 C:\Games\GitHub\TechnologicalProject\Backend\server\src\main\java\ru\oogis\advice\Violation.java
 C:\Games\GitHub\TechnologicalProject\Backend\server\src\main\java\ru\oogis\Application.java
+C:\Games\GitHub\TechnologicalProject\Backend\server\src\main\java\ru\oogis\controller\AccountController.java

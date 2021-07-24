@@ -20,7 +20,6 @@ public class ShowGroupServiceImpl implements ShowGroupService {
     private final CommunicationService communicationService;
     private final ShowMessageMapper messageMapper;
 
-    private
 
     public ShowGroupServiceImpl(ShowGroupMapper showGroupMapper, CommunicationService communicationService, ShowMessageMapper messageMapper) {
         this.showGroupMapper = showGroupMapper;
