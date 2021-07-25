@@ -11,6 +11,7 @@ ru\oogis\mapper\ShowUserInfoMapper.class
 ru\oogis\service\impl\ShowUserServiceImpl.class
 ru\oogis\service\impl\ShowGroupServiceImpl.class
 ru\oogis\mapper\EventMapper.class
+ru\oogis\transfer\Marker.class
 ru\oogis\service\impl\ShowAccountServiceImpl.class
 ru\oogis\transfer\ShowUserInfo.class
 ru\oogis\mapper\ShowSecurityMapper.class
@@ -19,9 +20,11 @@ ru\oogis\mapper\ShowSecurityMapperImpl.class
 ru\oogis\mapper\ShowUserMapper.class
 ru\oogis\service\ShowUserService.class
 ru\oogis\mapper\ShowMessageMapper.class
+ru\oogis\transfer\Marker$OnUpdate.class
 ru\oogis\mapper\ShowGroupMapper.class
 ru\oogis\mapper\ShowGroupMapperImpl$1.class
 ru\oogis\mapper\ShowMessageMapperImpl.class
 ru\oogis\service\ShowGroupService.class
+ru\oogis\transfer\Marker$OnCreate.class
 ru\oogis\mapper\ShowUserMapperImpl.class
 ru\oogis\transfer\ShowSecurity.class

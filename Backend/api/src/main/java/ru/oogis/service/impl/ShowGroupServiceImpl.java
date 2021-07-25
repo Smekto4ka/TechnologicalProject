@@ -58,6 +58,7 @@ public class ShowGroupServiceImpl implements ShowGroupService {
     @Override
     public void renameGroup(Long groupId, String name) {
         CommunicationGroupInfo groupInfo = new CommunicationGroupInfo();
+        groupInfo.setId(groupId);
         groupInfo.setName(name);
         communicationService.updateGroup(groupInfo);
     }

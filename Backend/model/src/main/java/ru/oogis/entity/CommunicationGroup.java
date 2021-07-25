@@ -1,5 +1,6 @@
 package ru.oogis.entity;
 
+import com.sun.istack.NotNull;
 import ru.oogis.data.GroupType;
 import lombok.Getter;
 import lombok.Setter;
@@ -18,10 +19,11 @@ public class CommunicationGroup {
     @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(name = "groups")
     private List<User> users = new ArrayList<>();
-
+    @NotNull
     private String name;
     @OneToMany(fetch = FetchType.LAZY , cascade = CascadeType.ALL)
     private List<Message> messages = new ArrayList<>();
+    @NotNull
     @Enumerated(EnumType.STRING)
     private GroupType groupType;
 }

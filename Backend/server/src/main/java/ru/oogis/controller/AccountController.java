@@ -4,8 +4,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import ru.oogis.service.ShowAccountService;
+import ru.oogis.transfer.Marker;
 import ru.oogis.transfer.ShowSecurity;
 import ru.oogis.transfer.ShowUser;
+
+import javax.validation.Valid;
 
 @RestController
 @CrossOrigin
@@ -21,7 +24,8 @@ public class AccountController {
 
     //TODO 1 login and password for 1 person
     @PostMapping
-    public ResponseEntity createUser(@RequestBody ShowUser user, @RequestBody ShowSecurity security) {
+    @Validated(Marker.OnCreate.class)
+    public ResponseEntity createUser(@Valid @RequestBody ShowUser user, @Valid @RequestBody ShowSecurity security) {
         return ResponseEntity.ok(showAccountService.createUser(user, security));
     }
 }
