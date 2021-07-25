@@ -1,6 +1,5 @@
 package ru.oogis.transfer;
 
-import data.dto.UserInfo;
 import lombok.Getter;
 import lombok.Setter;
 

@@ -1,13 +1,13 @@
 package ru.oogis.mapper;
 
-import event.EventEntity;
 import javax.annotation.processing.Generated;
 import org.springframework.stereotype.Component;
+import ru.oogis.event.EventEntity;
 import ru.oogis.event.MyEvent;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2021-07-24T19:55:22+0300",
+    date = "2021-07-25T13:10:43+0300",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 11.0.12 (Oracle Corporation)"
 )
 @Component

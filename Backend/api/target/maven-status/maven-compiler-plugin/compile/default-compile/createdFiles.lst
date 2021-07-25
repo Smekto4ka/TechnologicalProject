@@ -1,5 +1,4 @@
 ru\oogis\mapper\EventMapperImpl.class
-ru\oogis\mapper\ShowUserInfoMapperImpl.class
 ru\oogis\service\ShowAccountService.class
 ru\oogis\transfer\ShowGroup.class
 ru\oogis\transfer\ShowUser.class
@@ -9,10 +8,10 @@ ru\oogis\mapper\ShowGroupMapperImpl.class
 ru\oogis\event\MyEvent.class
 ru\oogis\transfer\ShowGroupInfo.class
 ru\oogis\mapper\ShowUserInfoMapper.class
+ru\oogis\service\impl\ShowUserServiceImpl.class
 ru\oogis\service\impl\ShowGroupServiceImpl.class
 ru\oogis\mapper\EventMapper.class
 ru\oogis\service\impl\ShowAccountServiceImpl.class
-ru\oogis\service\impl\ShowShowUserServiceImpl.class
 ru\oogis\transfer\ShowUserInfo.class
 ru\oogis\mapper\ShowSecurityMapper.class
 ru\oogis\transfer\ShowGroupType.class

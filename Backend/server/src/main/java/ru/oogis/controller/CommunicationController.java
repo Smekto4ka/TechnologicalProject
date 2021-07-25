@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @CrossOrigin
 @Validated
-
+@RequestMapping("/api/group")
 public class CommunicationController {
 
     private final ShowGroupService groupService;

@@ -1,21 +1,21 @@
 package ru.oogis.mapper;
 
-import data.dto.MessageDto;
 import javax.annotation.processing.Generated;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import ru.oogis.dto.MessageDto;
 import ru.oogis.transfer.ShowMessage;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2021-07-24T19:55:22+0300",
+    date = "2021-07-25T13:10:43+0300",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 11.0.12 (Oracle Corporation)"
 )
 @Component
 public class ShowMessageMapperImpl implements ShowMessageMapper {
 
     @Autowired
-    private ShowUserInfoMapper showUserInfoMapper;
+    private ShowUserMapper showUserMapper;
 
     @Override
     public ShowMessage messageDtoToShowMessage(MessageDto messageDto) {
@@ -25,7 +25,7 @@ public class ShowMessageMapperImpl implements ShowMessageMapper {
 
         ShowMessage showMessage = new ShowMessage();
 
-        showMessage.setSender( showUserInfoMapper.userInfoToShowUserInfo( messageDto.getSender() ) );
+        showMessage.setSender( showUserMapper.userInfoToShowUserInfo( messageDto.getSender() ) );
         showMessage.setMessage( messageDto.getMessage() );
 
         return showMessage;
@@ -39,7 +39,7 @@ public class ShowMessageMapperImpl implements ShowMessageMapper {
 
         MessageDto messageDto = new MessageDto();
 
-        messageDto.setSender( showUserInfoMapper.showUserInfoToUserInfo( showMessage.getSender() ) );
+        messageDto.setSender( showUserMapper.showUserInfoToUserInfo( showMessage.getSender() ) );
         messageDto.setMessage( showMessage.getMessage() );
 
         return messageDto;

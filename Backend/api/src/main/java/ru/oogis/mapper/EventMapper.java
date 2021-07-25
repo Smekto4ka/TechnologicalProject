@@ -1,6 +1,6 @@
 package ru.oogis.mapper;
 
-import event.EventEntity;
+import ru.oogis.event.EventEntity;
 import org.mapstruct.Mapper;
 import ru.oogis.event.MyEvent;
 

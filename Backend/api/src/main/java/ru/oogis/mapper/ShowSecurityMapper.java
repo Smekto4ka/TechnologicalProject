@@ -1,6 +1,6 @@
 package ru.oogis.mapper;
 
-import data.dto.SecurityDto;
+import ru.oogis.dto.SecurityDto;
 import org.mapstruct.Mapper;
 import ru.oogis.transfer.ShowSecurity;
 

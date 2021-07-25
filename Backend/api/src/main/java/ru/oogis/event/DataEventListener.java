@@ -1,6 +1,5 @@
 package ru.oogis.event;
 
-import event.EventEntity;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.event.TransactionPhase;

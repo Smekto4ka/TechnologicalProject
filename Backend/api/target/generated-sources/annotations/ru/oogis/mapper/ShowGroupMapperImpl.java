@@ -1,15 +1,15 @@
 package ru.oogis.mapper;
 
-import data.GroupType;
-import data.dto.CommunicationGroupDto;
-import data.dto.CommunicationGroupInfo;
-import data.dto.MessageDto;
-import data.dto.UserInfo;
 import java.util.ArrayList;
 import java.util.List;
 import javax.annotation.processing.Generated;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import ru.oogis.data.GroupType;
+import ru.oogis.dto.CommunicationGroupDto;
+import ru.oogis.dto.CommunicationGroupInfo;
+import ru.oogis.dto.MessageDto;
+import ru.oogis.dto.UserInfo;
 import ru.oogis.transfer.ShowGroup;
 import ru.oogis.transfer.ShowGroupInfo;
 import ru.oogis.transfer.ShowGroupType;
@@ -18,7 +18,7 @@ import ru.oogis.transfer.ShowUserInfo;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2021-07-24T19:55:22+0300",
+    date = "2021-07-25T13:10:43+0300",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 11.0.12 (Oracle Corporation)"
 )
 @Component
@@ -27,7 +27,7 @@ public class ShowGroupMapperImpl implements ShowGroupMapper {
     @Autowired
     private ShowMessageMapper showMessageMapper;
     @Autowired
-    private ShowUserInfoMapper showUserInfoMapper;
+    private ShowUserMapper showUserMapper;
 
     @Override
     public ShowGroupInfo communicationGroupInfoToShowGroupInfo(CommunicationGroupInfo communicationGroupInfo) {
@@ -136,7 +136,7 @@ public class ShowGroupMapperImpl implements ShowGroupMapper {
 
         List<ShowUserInfo> list1 = new ArrayList<ShowUserInfo>( list.size() );
         for ( UserInfo userInfo : list ) {
-            list1.add( showUserInfoMapper.userInfoToShowUserInfo( userInfo ) );
+            list1.add( showUserMapper.userInfoToShowUserInfo( userInfo ) );
         }
 
         return list1;
@@ -162,7 +162,7 @@ public class ShowGroupMapperImpl implements ShowGroupMapper {
 
         List<UserInfo> list1 = new ArrayList<UserInfo>( list.size() );
         for ( ShowUserInfo showUserInfo : list ) {
-            list1.add( showUserInfoMapper.showUserInfoToUserInfo( showUserInfo ) );
+            list1.add( showUserMapper.showUserInfoToUserInfo( showUserInfo ) );
         }
 
         return list1;

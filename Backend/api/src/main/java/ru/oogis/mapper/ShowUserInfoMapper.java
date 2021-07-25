@@ -1,10 +1,11 @@
 package ru.oogis.mapper;
 
-import data.dto.UserInfo;
-import org.mapstruct.Mapper;
+import ru.oogis.dto.UserInfo;
 import ru.oogis.transfer.ShowUserInfo;
 
-@Mapper(componentModel = "spring")
+
+//@Primary
+//@Mapper(componentModel = "spring")
 public interface ShowUserInfoMapper {
     ShowUserInfo userInfoToShowUserInfo(UserInfo userInfo);
 

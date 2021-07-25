@@ -1,6 +1,6 @@
 package ru.oogis.mapper;
 
-import data.dto.UserDto;
+import ru.oogis.dto.UserDto;
 import org.mapstruct.Mapper;
 import ru.oogis.transfer.ShowUser;
 import ru.oogis.transfer.ShowUserInfo;

@@ -1,11 +1,11 @@
 package ru.oogis.mapper;
 
-import data.dto.MessageDto;
+import ru.oogis.dto.MessageDto;
 import org.mapstruct.Mapper;
 import ru.oogis.transfer.ShowMessage;
-import ru.oogis.transfer.ShowUserInfo;
 
-@Mapper(componentModel = "spring" , uses = {ShowUserInfoMapper.class})
+
+@Mapper(componentModel = "spring" , uses = {ShowUserMapper.class})
 public interface ShowMessageMapper {
 
     ShowMessage messageDtoToShowMessage (MessageDto messageDto);

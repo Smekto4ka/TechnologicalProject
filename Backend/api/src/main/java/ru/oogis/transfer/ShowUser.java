@@ -1,6 +1,5 @@
 package ru.oogis.transfer;
 
-import data.dto.CommunicationGroupInfo;
 import lombok.Getter;
 import lombok.Setter;
 

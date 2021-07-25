@@ -1,12 +1,12 @@
 package ru.oogis.mapper;
 
-import data.dto.CommunicationGroupDto;
-import data.dto.CommunicationGroupInfo;
+import ru.oogis.dto.CommunicationGroupDto;
+import ru.oogis.dto.CommunicationGroupInfo;
 import org.mapstruct.Mapper;
 import ru.oogis.transfer.ShowGroup;
 import ru.oogis.transfer.ShowGroupInfo;
 
-@Mapper(componentModel = "spring", uses = {ShowMessageMapper.class , ShowUserInfoMapper.class})
+@Mapper(componentModel = "spring", uses = {ShowMessageMapper.class , ShowUserMapper.class})
 public interface ShowGroupMapper {
     ShowGroupInfo communicationGroupInfoToShowGroupInfo(CommunicationGroupInfo communicationGroupInfo);
     CommunicationGroupInfo showGroupInfoToCommunicationGroupInfo(ShowGroupInfo showGroupInfo);

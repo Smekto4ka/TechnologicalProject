@@ -1,20 +1,20 @@
 package ru.oogis.mapper;
 
-import data.dto.CommunicationGroupInfo;
-import data.dto.UserDto;
-import data.dto.UserInfo;
 import java.util.ArrayList;
 import java.util.List;
 import javax.annotation.processing.Generated;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import ru.oogis.dto.CommunicationGroupInfo;
+import ru.oogis.dto.UserDto;
+import ru.oogis.dto.UserInfo;
 import ru.oogis.transfer.ShowGroupInfo;
 import ru.oogis.transfer.ShowUser;
 import ru.oogis.transfer.ShowUserInfo;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2021-07-24T19:55:22+0300",
+    date = "2021-07-25T13:10:43+0300",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 11.0.12 (Oracle Corporation)"
 )
 @Component

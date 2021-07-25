@@ -1,14 +1,13 @@
 package ru.oogis.service.impl;
 
-import data.dto.CommunicationGroupDto;
-import data.dto.CommunicationGroupInfo;
+import ru.oogis.dto.CommunicationGroupInfo;
 import org.springframework.stereotype.Service;
 import ru.oogis.mapper.ShowGroupMapper;
 import ru.oogis.mapper.ShowMessageMapper;
 import ru.oogis.service.ShowGroupService;
 import ru.oogis.transfer.ShowGroup;
 import ru.oogis.transfer.ShowMessage;
-import service.CommunicationService;
+import ru.oogis.service.CommunicationService;
 
 import java.util.Collections;
 import java.util.List;
