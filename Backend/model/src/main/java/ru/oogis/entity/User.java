@@ -23,6 +23,6 @@ public class User {
     private String firstName;
     private Long age;
 
-    @ManyToMany(cascade = CascadeType.ALL)
+    @ManyToMany(mappedBy = "users")
     private List<CommunicationGroup> groups = new ArrayList<>();
 }

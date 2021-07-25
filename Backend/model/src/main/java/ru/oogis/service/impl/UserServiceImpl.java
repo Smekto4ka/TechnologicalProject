@@ -1,9 +1,7 @@
 package ru.oogis.service.impl;
 
-import ru.oogis.dto.SecurityDto;
 import ru.oogis.dto.UserDto;
 import ru.oogis.entity.User;
-import ru.oogis.mapping.SecurityMapper;
 import ru.oogis.mapping.UserMapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

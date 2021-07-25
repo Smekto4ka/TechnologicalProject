@@ -9,7 +9,7 @@ import org.mapstruct.Mappings;
 
 
 @Mapper(componentModel = "spring")
-public interface SecurityMapper {
+public interface SecurityDtoMapper {
     @Mappings({
             @Mapping(target = "userId", source = "id"),
             @Mapping(target = "login", source = "securityData.login"),

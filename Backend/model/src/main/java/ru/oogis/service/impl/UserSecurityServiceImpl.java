@@ -3,7 +3,7 @@ package ru.oogis.service.impl;
 import ru.oogis.dto.SecurityDto;
 import ru.oogis.dto.UserDto;
 import ru.oogis.entity.User;
-import ru.oogis.mapping.SecurityMapper;
+import ru.oogis.mapping.SecurityDtoMapper;
 import ru.oogis.mapping.UserMapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -15,12 +15,15 @@ import ru.oogis.service.UserSecurityService;
 public class UserSecurityServiceImpl implements UserSecurityService {
 
     private final UserMapper userMapper;
-    private final SecurityMapper securityMapper;
+    private final SecurityDtoMapper securityDtoMapper;
     private final UserRepository userRepository;
 
-    public UserSecurityServiceImpl(UserMapper userMapper, SecurityMapper securityMapper, UserRepository userRepository) {
+
+    //TODO 1 login and password for 1 person
+
+    public UserSecurityServiceImpl(UserMapper userMapper, SecurityDtoMapper securityDtoMapper, UserRepository userRepository) {
         this.userMapper = userMapper;
-        this.securityMapper = securityMapper;
+        this.securityDtoMapper = securityDtoMapper;
         this.userRepository = userRepository;
     }
 
@@ -28,7 +31,7 @@ public class UserSecurityServiceImpl implements UserSecurityService {
     @Override
     public UserDto createUser(UserDto userDto, SecurityDto securityDto) {
         User user = userMapper.userDtoToUser(userDto);
-        user.setSecurityData(securityMapper.securityDtoToEntity(securityDto));
+        user.setSecurityData(securityDtoMapper.securityDtoToEntity(securityDto));
         return userMapper.userToUserDto(userRepository.save(user));
     }
 }

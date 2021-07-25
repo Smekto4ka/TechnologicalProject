@@ -2,6 +2,7 @@ C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\ru\oogis\data\M
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\ru\oogis\dto\MessageDto.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\ru\oogis\event\EventEntity.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\ru\oogis\dto\CommunicationGroupInfo.java
+C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\ru\oogis\mapping\SecurityDtoMapper.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\ru\oogis\dto\SecurityDto.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\ru\oogis\mapping\UserMapper.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\ru\oogis\service\impl\CommunicationServiceImpl.java
@@ -14,7 +15,6 @@ C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\ru\oogis\servic
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\ru\oogis\service\UserService.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\ru\oogis\entity\CommunicationGroup.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\ru\oogis\repository\CommunicationRepository.java
-C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\ru\oogis\mapping\SecurityMapper.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\ru\oogis\repository\UserRepository.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\ru\oogis\entity\User.java
 C:\Games\GitHub\TechnologicalProject\Backend\model\src\main\java\ru\oogis\repository\MessageRepository.java

@@ -19,7 +19,7 @@ public class AccountController {
         this.showAccountService = showAccountService;
     }
 
-
+    //TODO 1 login and password for 1 person
     @PostMapping
     public ResponseEntity createUser(@RequestBody ShowUser user, @RequestBody ShowSecurity security) {
         return ResponseEntity.ok(showAccountService.createUser(user, security));
