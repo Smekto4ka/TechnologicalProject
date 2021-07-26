@@ -8,7 +8,7 @@ import ru.oogis.entity.User;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2021-07-25T17:52:47+0300",
+    date = "2021-07-26T23:20:48+0300",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 11.0.12 (Oracle Corporation)"
 )
 @Component

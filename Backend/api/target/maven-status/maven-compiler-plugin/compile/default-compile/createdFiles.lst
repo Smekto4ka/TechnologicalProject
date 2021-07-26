@@ -24,7 +24,9 @@ ru\oogis\transfer\Marker$OnUpdate.class
 ru\oogis\mapper\ShowGroupMapper.class
 ru\oogis\mapper\ShowGroupMapperImpl$1.class
 ru\oogis\mapper\ShowMessageMapperImpl.class
+validation\EnableMatchConstraint.class
 ru\oogis\service\ShowGroupService.class
 ru\oogis\transfer\Marker$OnCreate.class
+validation\CheckNickValidator.class
 ru\oogis\mapper\ShowUserMapperImpl.class
 ru\oogis\transfer\ShowSecurity.class

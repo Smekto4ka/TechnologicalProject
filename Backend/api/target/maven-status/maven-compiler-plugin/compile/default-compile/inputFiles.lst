@@ -12,6 +12,7 @@ C:\Games\GitHub\TechnologicalProject\Backend\api\src\main\java\ru\oogis\transfer
 C:\Games\GitHub\TechnologicalProject\Backend\api\src\main\java\ru\oogis\transfer\ShowGroupType.java
 C:\Games\GitHub\TechnologicalProject\Backend\api\src\main\java\ru\oogis\transfer\ShowUser.java
 C:\Games\GitHub\TechnologicalProject\Backend\api\src\main\java\ru\oogis\transfer\ShowSecurity.java
+C:\Games\GitHub\TechnologicalProject\Backend\api\src\main\java\validation\CheckNickValidator.java
 C:\Games\GitHub\TechnologicalProject\Backend\api\src\main\java\ru\oogis\service\ShowGroupService.java
 C:\Games\GitHub\TechnologicalProject\Backend\api\src\main\java\ru\oogis\service\impl\ShowAccountServiceImpl.java
 C:\Games\GitHub\TechnologicalProject\Backend\api\src\main\java\ru\oogis\transfer\ShowUserInfo.java
@@ -20,3 +21,4 @@ C:\Games\GitHub\TechnologicalProject\Backend\api\src\main\java\ru\oogis\service\
 C:\Games\GitHub\TechnologicalProject\Backend\api\src\main\java\ru\oogis\mapper\ShowSecurityMapper.java
 C:\Games\GitHub\TechnologicalProject\Backend\api\src\main\java\ru\oogis\transfer\Marker.java
 C:\Games\GitHub\TechnologicalProject\Backend\api\src\main\java\ru\oogis\service\impl\ShowGroupServiceImpl.java
+C:\Games\GitHub\TechnologicalProject\Backend\api\src\main\java\validation\EnableMatchConstraint.java
