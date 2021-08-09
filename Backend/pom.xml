@@ -12,6 +12,7 @@
         <module>model</module>
         <module>api</module>
         <module>server</module>
+        <module>lololo</module>
     </modules>
 
     <properties>
