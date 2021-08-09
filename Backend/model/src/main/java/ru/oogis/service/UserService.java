@@ -4,6 +4,7 @@ import ru.oogis.dto.SecurityDto;
 import ru.oogis.dto.UserDto;
 
 import java.util.Collection;
+import java.util.Optional;
 
 public interface UserService {
 
@@ -15,5 +16,5 @@ public interface UserService {
 
    UserDto deleteUser(Long id);
 
-
+   Optional<UserDto> userByNick(String nick);
 }

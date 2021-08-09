@@ -10,8 +10,10 @@
         <module name="server" />
         <module name="model" />
         <module name="api" />
-        <module name="lololo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lololo" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

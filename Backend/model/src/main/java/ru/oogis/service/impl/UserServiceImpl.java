@@ -9,6 +9,7 @@ import ru.oogis.repository.UserRepository;
 import ru.oogis.service.UserService;
 
 import java.util.Collection;
+import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.StreamSupport;
 
@@ -58,5 +59,8 @@ public class UserServiceImpl implements UserService {
         return userMapper.userToUserDto(user);
     }
 
-
+    @Override
+    public Optional<UserDto> userByNick(String nick) {
+        return userRepository.findByNick(nick).map(userMapper::userToUserDto);
+    }
 }

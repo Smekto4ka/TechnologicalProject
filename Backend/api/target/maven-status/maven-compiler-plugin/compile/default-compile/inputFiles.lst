@@ -3,6 +3,7 @@
 /home/smekto4ka/projectIDEA/GitHub/TechnologicalProject/Backend/api/src/main/java/ru/oogis/mapper/ShowSecurityMapper.java
 /home/smekto4ka/projectIDEA/GitHub/TechnologicalProject/Backend/api/src/main/java/ru/oogis/mapper/ShowUserInfoMapper.java
 /home/smekto4ka/projectIDEA/GitHub/TechnologicalProject/Backend/api/src/main/java/ru/oogis/service/ShowAccountService.java
+/home/smekto4ka/projectIDEA/GitHub/TechnologicalProject/Backend/api/src/main/java/validation/CheckNickValidator.java
 /home/smekto4ka/projectIDEA/GitHub/TechnologicalProject/Backend/api/src/main/java/ru/oogis/mapper/EventMapper.java
 /home/smekto4ka/projectIDEA/GitHub/TechnologicalProject/Backend/api/src/main/java/ru/oogis/transfer/ShowGroupInfo.java
 /home/smekto4ka/projectIDEA/GitHub/TechnologicalProject/Backend/api/src/main/java/ru/oogis/service/impl/ShowAccountServiceImpl.java
@@ -20,3 +21,4 @@
 /home/smekto4ka/projectIDEA/GitHub/TechnologicalProject/Backend/api/src/main/java/ru/oogis/transfer/ShowUserInfo.java
 /home/smekto4ka/projectIDEA/GitHub/TechnologicalProject/Backend/api/src/main/java/ru/oogis/transfer/Marker.java
 /home/smekto4ka/projectIDEA/GitHub/TechnologicalProject/Backend/api/src/main/java/ru/oogis/transfer/ShowMessage.java
+/home/smekto4ka/projectIDEA/GitHub/TechnologicalProject/Backend/api/src/main/java/validation/EnableMatchConstraint.java

@@ -40,10 +40,7 @@ public class UserController {
         return ResponseEntity.ok(showUserService.allUser());
     }
 
-/*    @GetMapping("/info/{id}")
-    public ResponseEntity getUserById(@PathVariable Long id){
 
-    }*/
 
     @GetMapping("/{id}")
     public ResponseEntity getUserById(@PathVariable @Min(1) Long id){

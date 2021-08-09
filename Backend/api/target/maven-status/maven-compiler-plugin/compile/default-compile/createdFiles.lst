@@ -10,6 +10,8 @@ ru/oogis/mapper/ShowSecurityMapperImpl.class
 ru/oogis/mapper/ShowGroupMapper.class
 ru/oogis/service/ShowGroupService.class
 ru/oogis/mapper/ShowMessageMapper.class
+validation/EnableMatchConstraint.class
+validation/CheckNickValidator.class
 ru/oogis/transfer/ShowUserInfo.class
 ru/oogis/service/ShowAccountService.class
 ru/oogis/transfer/ShowGroup.class

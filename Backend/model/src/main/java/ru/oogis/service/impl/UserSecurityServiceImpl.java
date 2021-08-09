@@ -10,6 +10,8 @@ import org.springframework.transaction.annotation.Transactional;
 import ru.oogis.repository.UserRepository;
 import ru.oogis.service.UserSecurityService;
 
+import java.util.Optional;
+
 @Service
 @Transactional
 public class UserSecurityServiceImpl implements UserSecurityService {
@@ -33,5 +35,9 @@ public class UserSecurityServiceImpl implements UserSecurityService {
         User user = userMapper.userDtoToUser(userDto);
         user.setSecurityData(securityDtoMapper.securityDtoToEntity(securityDto));
         return userMapper.userToUserDto(userRepository.save(user));
+    }
+
+    public Optional<UserDto> checkUserByNick(String nick){
+        return userRepository.findByNick(nick).map(userMapper::userToUserDto);
     }
 }
