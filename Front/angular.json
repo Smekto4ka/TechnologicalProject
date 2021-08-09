@@ -5,7 +5,11 @@
   "projects": {
     "Front": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -46,13 +50,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "2mb",
-                  "maximumError": "5mb"
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "6kb",
-                  "maximumError": "10kb"
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
                 }
               ]
             }
@@ -120,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "Front"
+  "defaultProject": "Front",
+  "cli": {
+    "analytics": "64ce6944-0694-44c5-9761-23a1ce04ea64"
+  }
 }
